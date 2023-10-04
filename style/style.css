@@ -1,0 +1,42 @@
+body{
+    background-color: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.style-table {
+   padding: 7px;
+   border: 2px  solid   rgb(235, 235, 235);
+   border-collapse: collapse;
+   width: 100%;
+   background-color: #ffffff;
+   box-shadow:  #cacaca;
+}
+
+table, th, td{
+    border-bottom:  2px solid   rgb(212, 212, 212);
+    padding: 8px;   
+}
+th{
+    background-color: rgb(82, 148, 247);
+    color: white;
+}
+tr:nth-child(even) {background-color: #eeeeee;}
+tr:hover {
+  background-color: rgb(177, 177, 177);  
+}
+.green-color{
+    background-color: rgb(47, 119, 47);
+color: white;
+} 
+.Mustard-color{ 
+    background-color: rgb(221, 153, 5);
+    color: white;
+}
+.orange-color{
+    background-color: rgb(216, 80, 1);
+    color: white;
+}
+.red-color{
+    background-color: rgb(151, 24, 20);
+    color: white;
+}
